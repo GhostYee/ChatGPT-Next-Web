@@ -10,7 +10,7 @@ const cn = {
     ChatItemCount: (count: number) => `${count} 条对话`,
   },
   Chat: {
-    SubTitle: (count: number) => `与 ChatGPT 的 ${count} 条对话`,
+    SubTitle: (count: number) => `与 AIChat 的 ${count} 条对话`,
     Actions: {
       ChatList: "查看消息列表",
       CompressedHistory: "查看压缩后的历史 Prompt",
@@ -170,7 +170,8 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello:
+      "你好，不管你在哪里，我都 『一职在』 ，你可以左边选择您的角色面具，获得更好的沟通",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
